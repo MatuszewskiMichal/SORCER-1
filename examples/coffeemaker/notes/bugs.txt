@@ -1,0 +1,18 @@
+﻿1. Class = CoffeeMaker.java | Method = addInventory(int amtCoffee, int amtMilk, int amtSugar, int amtChocolate) | Test = InventoryTest -> testAddInventoryWithPositiveSugar()
+- line 148 
+- You cannot add positive number of sugar.
+2. Class = CoffeeMaker.java | Method = makeCoffee(Recipe r, int amtPaid) | Test = InventoryTest -> testMakeCoffeeCorrectIngredientsAfterwards()
+- line 177
+ - Coffee counter is incrementing instead of decrementing.
+
+3. Class = CoffeeMaker.java | Variable = final int NUM_RECIPES | Test = RecipeTest -> testOnlyThreeRecipes()
+- line 25 
+- Wrong wariable value
+4. Class = CoffeeMaker.java | Method = deleteRecipe(Recipe r) | Test = RecipeTest -> testDeleteRecipe()
+
+
+- linia 87
+ - Recipse is not deleting correctly
+5. Class = CoffeeMaker.java | Method = getRecipeForName(String name) | Test = RecipeTest -> testHandleNullRecipeName()
+- linia 210 
+- system is not working correctly, when name == null
